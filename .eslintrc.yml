@@ -1,0 +1,12 @@
+---
+root: true
+plugins:
+  - node
+extends:
+  - eslint:recommended
+  - plugin:node/recommended
+  - plugin:prettier/recommended
+
+rules:
+  semi: off
+  node/no-missing-require: off
