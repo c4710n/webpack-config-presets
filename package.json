@@ -1,7 +1,7 @@
 {
-  "name": "webpack-config-parts",
-  "description": "Parts of Webpack configurations.",
-  "version": "7.2.1",
+  "name": "webpack-config-presets",
+  "description": "Presets of Webpack configurations.",
+  "version": "1.0.0",
   "license": "MIT",
   "engines": {
     "node": ">=8"

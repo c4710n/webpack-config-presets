@@ -1,4 +1,4 @@
-# webpack-config-parts
+# webpack-config-presets
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
@@ -18,13 +18,13 @@
 ## Install
 
 ```
-$ npm install webpack-config-parts
+$ npm install webpack-config-presets
 ```
 
 ## Usage
 
 ```js
-const { setupIO } = require('webpack-config-parts')
+const { setupIO } = require('webpack-config-presets')
 ```
 
 ## Build Options
@@ -40,10 +40,6 @@ const { setupIO } = require('webpack-config-parts')
 ## Why create this?
 
 I'm tired of writing the same configurations again and again.
-
-## I think you should...
-
-Uhh... This package is published for myself, If you don't like it, just fuck off.
 
 ## License
 
