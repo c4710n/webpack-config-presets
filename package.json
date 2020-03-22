@@ -1,7 +1,7 @@
 {
   "name": "webpack-config-presets",
   "description": "Presets of Webpack configurations.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "MIT",
   "engines": {
     "node": ">=8"
