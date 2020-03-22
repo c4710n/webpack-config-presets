@@ -10,3 +10,6 @@ extends:
 rules:
   semi: off
   node/no-missing-require: off
+  no-unused-vars:
+    - "error"
+    - { argsIgnorePattern: "^_" }
