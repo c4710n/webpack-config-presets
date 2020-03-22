@@ -37,6 +37,11 @@ function isCSS(filename) {
   return filename.endsWith('.css')
 }
 
+function isSASS(filename) {
+  const re = /\.s[ac]ss$/i
+  return re.test(filename)
+}
+
 function toArray(data) {
   return data ? (Array.isArray(data) ? data : [data]) : []
 }
@@ -63,5 +68,6 @@ module.exports = {
   isFileHashEnabled,
   isProductionMode,
   isCSS,
+  isSASS,
   toArray,
 }
