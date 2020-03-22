@@ -3,6 +3,7 @@ const setupIO = require('./setup-io')
 const setupDevServer = require('./setup-dev-server')
 const loadHTML = require('./load-html')
 const loadCSS = require('./load-css')
+const loadSASS = require('./load-sass')
 const loadJS = require('./load-js')
 const loadJSX = require('./load-jsx')
 const loadReactCSSModule = require('./load-react-css-module')
@@ -21,6 +22,7 @@ module.exports = {
   setupDevServer,
   loadHTML,
   loadCSS,
+  loadSASS,
   loadJS,
   loadJSX,
   loadReactCSSModule,

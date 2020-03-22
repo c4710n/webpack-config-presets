@@ -19,6 +19,7 @@ const setupIO = (entry, outputDir) => {
      * tell webpack not resolve symlinks to their symlinked location.
      */
     symlinks: false,
+    extensions: ['.js'],
   }
 
   return {

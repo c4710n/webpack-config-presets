@@ -1,0 +1,13 @@
+html {
+  font-family: monospace;
+}
+
+.test-css {
+  background: #fafaff;
+  color: green;
+}
+
+.test-css-media {
+  background: url('../res/placeholder.png');
+  color: green;
+}

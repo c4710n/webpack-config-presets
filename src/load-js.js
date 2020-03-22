@@ -1,9 +1,6 @@
 /* eslint-env node */
 
 const loadJS = ({ include, exclude } = {}) => ({
-  resolve: {
-    extensions: ['.js'],
-  },
   module: {
     rules: [
       {
